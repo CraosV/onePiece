@@ -5,6 +5,13 @@
     background-color: rgb(18, 18, 19);
     color: rgb(235, 213, 197);
   }
+  .upheader img
+  {
+    width: 100%;
+    height: 220px;
+    
+    object-fit: cover;
+  }
   header {
     display: flex;
     width: 90%;
@@ -53,7 +60,7 @@
     padding-top: 10px;
     padding-bottom: 5px;
     text-align: justify;
-    font-size: 30px;
+    font-size: 20px;
   }
   .pie {
     background-color: rgb(18, 18, 19);
@@ -72,14 +79,20 @@
     margin-bottom: 10px;
   }
   /* ----------------------------------- */
+  .tittle
+  {
+    padding-top: 70px;
+    width: 120px;
+  }
   .article1
   {
+    
     display: inline-block;
   }
   .article1 img
   {
     
-    width: 700px;
+    width: 350px;
   }
   .article1 p
   {
@@ -121,3 +134,70 @@
     padding-left: 45px;
   }
   /* ----------------------------------------- */
+  .contactos
+  {
+    padding-left: 100px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+  
+  }
+  .contactos div
+  {
+    border-radius: 10px;
+    background-color: #0d70cd;
+    transition: transform 0.5s ease;
+  }
+  .contactos div:hover
+  {
+    transform: scale(1.1);
+  }
+
+    /* ----------------------------------------- */
+  .historia
+  {
+    display: inline-flex;
+    padding: 10px;
+
+  }
+  .historia p 
+  {
+    margin: 20px;
+  }
+  .historia h4
+  {
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    color: #4091dd;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .historia div
+  {
+    background-color: #0d0d0e;
+    margin: 10px;
+  }
+    /* ----------------------------------------- */
+  .trailer
+  {
+    margin: 20px;
+  }
+  footer
+  {
+    padding: 20px;
+    margin-left: 40%;
+  }
+  footer i 
+  {
+    padding-left: 20px;
+    display: inline-flex;
+    color: #0d70cd;
+  }
+ .derechos
+ {
+  display: inline-block;
+  font-size: 15px;
+  
+ }
+  
